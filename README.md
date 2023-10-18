@@ -1,6 +1,6 @@
 # GPT-4Vision4AnkiCards
 
-This tool allows to automatically create Anki Cards for any topic you like. Basic programming experience is needed to run the function and a ChatGPT-Plus Subscription, as well as some time for inserting the Prompts with the ready-made pictures.
+This tool allows to automatically create Anki Cards for any topic you like. Basic programming experience is needed to run the two functions and a ChatGPT-Plus Subscription (by Oct 18, 2023), as well as some time for inserting the Prompts with the ready-made pictures.
 
 ## Installation Requirements
 
