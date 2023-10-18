@@ -6,6 +6,7 @@ This tool allows to automatically create Anki Cards for any topic you like. Basi
 
 1. **Anki**: Follow the [official installation guide](https://apps.ankiweb.net/) to get Anki on your machine.
 2. **AnkiConnect**: Easy Installation instructions can be found on the [AnkiConnect GitHub repository](https://github.com/FooSoft/anki-connect).
+3. **Python Programming Environment**
 
 ## Usage
 
