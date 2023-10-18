@@ -1,0 +1,63 @@
+# Ignore directories
+saved_jsons/
+sliced_images/
+sliced_pdfs/
+*.pdf
+
+# Common ignored file patterns for many projects
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it might be useful to comment out this line and commit these files if you want to track package versions
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and editor generated files #
+##################################
+*.project
+*.swo
+*.swp
+*.user
+*.idea/
+*.vscode/
+*.settings/
+*.metadata/
+
+# Other #
+#########
+*.bak
+*.swp
+*~
+*.tmp
+*.temp

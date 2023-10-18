@@ -1,0 +1,7 @@
+Here are 12 slides as study material for the "AWS Certified Solutions Architect - Associate" exam. Your task is to create as many question - answer pairs as is necessary to score very high on the exam. Your questions should always be of the type:
+- Multiple choice: Has one correct response and three incorrect responses (distractors) OR 
+- Multiple response: Has two or more correct responses out of five or more response options 
+The questions should consist of typical exam questions asked, for example for designing solutions that incorporate AWS services to meet current business requirements and future projected needs or about designing architectures that are secure, resilient, high-performing, and cost-
+optimized or reviewing existing solutions and determine improvements. The questions should be medium or hard to solve. 
+PLEASE always focus on the words that ARE MARKED BOLD and make connections to the architecture diagrams that you see if necessary. If there are side notes in blue focus on them or if is marked as exam. 
+Output the question-answers pairs in a fully JSON schema (schema: "question" for the question, "type" of "multiple choice" or "multiple response" and "options" for the options, which are part of the question, as list and "answer" for the answer as list and "explanation" for an detailed one-sentence description why the other options were not chosen in the answer):
