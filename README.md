@@ -1,21 +1,24 @@
 # GPT-4Vision4AnkiCards
 
+This tool allows to automatically create Anki Cards for any topic you like. Basic programming experience is needed to run the function and a ChatGPT-Plus Subscription, as well as some time for inserting the Prompts with the ready-made pictures.
 
-**Installation Requirements**
+## Installation Requirements
 
-    Install Anki: Follow the official installation guide to get Anki on your machine.
-    Install AnkiConnect: You can find the installation instructions on the AnkiConnect GitHub repository.
+1. **Anki**: Follow the [official installation guide](https://apps.ankiweb.net/) to get Anki on your machine.
+2. **AnkiConnect**: Easy Installation instructions can be found on the [AnkiConnect GitHub repository](https://github.com/FooSoft/anki-connect).
 
-**Usage**
-1. Generate Images for ChatGPT
+## Usage
 
-Use the extract_convert_save function in the make_pictures_for_chatgpt.py to create compact pictures. Provide it with the PDF file of your choice.
+### 1. Generate Images for ChatGPT
 
-2. Interact with ChatGPT
+Use the `extract_convert_save` function in the `make_pictures_for_chatgpt.py` script. Provide it with the PDF file of your choice.
 
-Note: Ensure you have ChatGPT Plus to utilize this feature.
+**Note**: ChatGPT Plus is required for this functionality.
 
-After generating the images, manually provide them to ChatGPT with the appropriate prompts (you can see an example in the prompt.txt). ChatGPT will then generate a JSON with the desired format.
-3. Create Anki Cards
+### 2. Interact with ChatGPT
 
-Pass the generated JSON into make_cards.py to transform them into Anki cards.
+After generating the images, manually provide them to ChatGPT with your prompts. ChatGPT will then produce a JSON in the desired format.
+
+### 3. Create Anki Cards
+
+With the generated JSON, run `make_cards.py` to create the Anki cards.
